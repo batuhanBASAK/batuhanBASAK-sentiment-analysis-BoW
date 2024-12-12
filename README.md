@@ -27,16 +27,24 @@ In order to prevent this, I highly recommand to create a virtual environment wit
 
 ### Creating virtual environment
 
-```python3.10 -m venv virtual-env```
+```bash
+python3.10 -m venv virtual-env
+```
 
-```source virtual-env/bin/activate```
+```bash
+source virtual-env/bin/activate
+```
 
 
 ### Installing necessary libraries
 
-```pip3 install -r requirements.txt``` 
+```bash
+pip3 install -r requirements.txt
+``` 
 
-```python3 -m spacy download en_core_web_sm```
+```bash
+python3 -m spacy download en_core_web_sm
+```
 
 
 
@@ -55,7 +63,9 @@ The generated model will be stored in a pickle file which is called the_model.pk
 
 When everything is installed and ready, you can simply run the application by the command
 
-```python3 app.py```
+```bash
+python3 app.py
+```
 
 After you run the command above, you should see the initial gui of the app as below
 
